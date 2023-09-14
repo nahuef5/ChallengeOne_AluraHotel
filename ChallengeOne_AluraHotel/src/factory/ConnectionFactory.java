@@ -14,8 +14,8 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 public class ConnectionFactory implements AutoCloseable{
     
     private final String url = "jdbc:mysql://localhost:3306/hotelAlura?useTimeZone=true&serverTimeZone=UTC";
-    private final String root = "root";
-    private final String password = "";
+    private final String root = "username";
+    private final String password = "password";
     private final DataSource dataSource;
     /**
      * Constructor que inicializa el DataSource con la configuración predeterminada.
@@ -25,7 +25,7 @@ public class ConnectionFactory implements AutoCloseable{
         pooledDataSource.setJdbcUrl(url);
         pooledDataSource.setUser(root);
         pooledDataSource.setPassword(password);
-        pooledDataSource.setMaxPoolSize(10);
+        pooledDataSource.setMaxPoolSize(5);
         this.dataSource = pooledDataSource;
     }
     /**
