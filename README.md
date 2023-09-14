@@ -5,3 +5,12 @@
 ##  Para conocer el funcionamiento del programa:
 #### 🔹 ¡Para ver el video clic aquí! [Link de youtube](https://www.youtube.com/watch?v=BFBwwRjmnUI) 📃
 
+</br>
+
+## 🖥️ Tecnologías Utilizadas:
+
+- Java
+- Eclipse
+- Biblioteca JCalendar
+- MySql
+- </br>
